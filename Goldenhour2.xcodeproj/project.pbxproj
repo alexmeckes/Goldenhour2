@@ -12,6 +12,18 @@
 		A4A4525E1A085FF200842473 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4A4525C1A085FF200842473 /* Main.storyboard */; };
 		A4A452601A085FF200842473 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4A4525F1A085FF200842473 /* Images.xcassets */; };
 		A4A4526C1A085FF300842473 /* Goldenhour2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A4526B1A085FF300842473 /* Goldenhour2Tests.swift */; };
+		A4A452831A08607A00842473 /* EquatorialCoordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A452761A08607A00842473 /* EquatorialCoordinates.swift */; };
+		A4A452841A08607A00842473 /* GeocentricCoordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A452771A08607A00842473 /* GeocentricCoordinates.swift */; };
+		A4A452851A08607A00842473 /* MoonIllumination.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A452781A08607A00842473 /* MoonIllumination.swift */; };
+		A4A452861A08607A00842473 /* MoonPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A452791A08607A00842473 /* MoonPosition.swift */; };
+		A4A452871A08607A00842473 /* SunPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A4527A1A08607A00842473 /* SunPosition.swift */; };
+		A4A452881A08607A00842473 /* suncalc.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A4527B1A08607A00842473 /* suncalc.swift */; };
+		A4A452891A08607A00842473 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A4527D1A08607A00842473 /* Constants.swift */; };
+		A4A4528A1A08607A00842473 /* DateUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A4527E1A08607A00842473 /* DateUtils.swift */; };
+		A4A4528B1A08607A00842473 /* MoonUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A4527F1A08607A00842473 /* MoonUtils.swift */; };
+		A4A4528C1A08607A00842473 /* PositionUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A452801A08607A00842473 /* PositionUtils.swift */; };
+		A4A4528D1A08607A00842473 /* SunUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A452811A08607A00842473 /* SunUtils.swift */; };
+		A4A4528E1A08607A00842473 /* TimeUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A452821A08607A00842473 /* TimeUtils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +46,18 @@
 		A4A452651A085FF300842473 /* Goldenhour2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Goldenhour2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4A4526A1A085FF300842473 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4A4526B1A085FF300842473 /* Goldenhour2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goldenhour2Tests.swift; sourceTree = "<group>"; };
+		A4A452761A08607A00842473 /* EquatorialCoordinates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EquatorialCoordinates.swift; sourceTree = "<group>"; };
+		A4A452771A08607A00842473 /* GeocentricCoordinates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeocentricCoordinates.swift; sourceTree = "<group>"; };
+		A4A452781A08607A00842473 /* MoonIllumination.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoonIllumination.swift; sourceTree = "<group>"; };
+		A4A452791A08607A00842473 /* MoonPosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoonPosition.swift; sourceTree = "<group>"; };
+		A4A4527A1A08607A00842473 /* SunPosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SunPosition.swift; sourceTree = "<group>"; };
+		A4A4527B1A08607A00842473 /* suncalc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = suncalc.swift; sourceTree = "<group>"; };
+		A4A4527D1A08607A00842473 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A4A4527E1A08607A00842473 /* DateUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateUtils.swift; sourceTree = "<group>"; };
+		A4A4527F1A08607A00842473 /* MoonUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoonUtils.swift; sourceTree = "<group>"; };
+		A4A452801A08607A00842473 /* PositionUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PositionUtils.swift; sourceTree = "<group>"; };
+		A4A452811A08607A00842473 /* SunUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SunUtils.swift; sourceTree = "<group>"; };
+		A4A452821A08607A00842473 /* TimeUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeUtils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +101,9 @@
 			children = (
 				A4A452581A085FF200842473 /* AppDelegate.swift */,
 				A4A4525A1A085FF200842473 /* ViewController.swift */,
+				A4A452751A08607A00842473 /* models */,
+				A4A4527B1A08607A00842473 /* suncalc.swift */,
+				A4A4527C1A08607A00842473 /* utils */,
 				A4A4525C1A085FF200842473 /* Main.storyboard */,
 				A4A4525F1A085FF200842473 /* Images.xcassets */,
 				A4A452561A085FF200842473 /* Supporting Files */,
@@ -107,6 +134,31 @@
 				A4A4526A1A085FF300842473 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A4A452751A08607A00842473 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				A4A452761A08607A00842473 /* EquatorialCoordinates.swift */,
+				A4A452771A08607A00842473 /* GeocentricCoordinates.swift */,
+				A4A452781A08607A00842473 /* MoonIllumination.swift */,
+				A4A452791A08607A00842473 /* MoonPosition.swift */,
+				A4A4527A1A08607A00842473 /* SunPosition.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		A4A4527C1A08607A00842473 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				A4A4527D1A08607A00842473 /* Constants.swift */,
+				A4A4527E1A08607A00842473 /* DateUtils.swift */,
+				A4A4527F1A08607A00842473 /* MoonUtils.swift */,
+				A4A452801A08607A00842473 /* PositionUtils.swift */,
+				A4A452811A08607A00842473 /* SunUtils.swift */,
+				A4A452821A08607A00842473 /* TimeUtils.swift */,
+			);
+			path = utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,8 +260,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4A452841A08607A00842473 /* GeocentricCoordinates.swift in Sources */,
+				A4A452881A08607A00842473 /* suncalc.swift in Sources */,
+				A4A452861A08607A00842473 /* MoonPosition.swift in Sources */,
+				A4A4528B1A08607A00842473 /* MoonUtils.swift in Sources */,
+				A4A452831A08607A00842473 /* EquatorialCoordinates.swift in Sources */,
 				A4A4525B1A085FF200842473 /* ViewController.swift in Sources */,
+				A4A4528E1A08607A00842473 /* TimeUtils.swift in Sources */,
 				A4A452591A085FF200842473 /* AppDelegate.swift in Sources */,
+				A4A4528D1A08607A00842473 /* SunUtils.swift in Sources */,
+				A4A452871A08607A00842473 /* SunPosition.swift in Sources */,
+				A4A4528C1A08607A00842473 /* PositionUtils.swift in Sources */,
+				A4A4528A1A08607A00842473 /* DateUtils.swift in Sources */,
+				A4A452851A08607A00842473 /* MoonIllumination.swift in Sources */,
+				A4A452891A08607A00842473 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
