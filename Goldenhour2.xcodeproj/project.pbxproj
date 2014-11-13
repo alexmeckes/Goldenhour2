@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A437068D1A142C0E00428F1E /* goldenhour2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A437068C1A142C0E00428F1E /* goldenhour2.jpg */; };
 		A4A452591A085FF200842473 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A452581A085FF200842473 /* AppDelegate.swift */; };
 		A4A4525B1A085FF200842473 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A4525A1A085FF200842473 /* ViewController.swift */; };
 		A4A4525E1A085FF200842473 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4A4525C1A085FF200842473 /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A437068C1A142C0E00428F1E /* goldenhour2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = goldenhour2.jpg; sourceTree = "<group>"; };
 		A4A452531A085FF200842473 /* Goldenhour2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Goldenhour2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4A452571A085FF200842473 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4A452581A085FF200842473 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 		A4A452561A085FF200842473 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A437068C1A142C0E00428F1E /* goldenhour2.jpg */,
 				A4A452571A085FF200842473 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -242,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4A4525E1A085FF200842473 /* Main.storyboard in Resources */,
+				A437068D1A142C0E00428F1E /* goldenhour2.jpg in Resources */,
 				A4A452601A085FF200842473 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -392,6 +396,7 @@
 				INFOPLIST_FILE = Goldenhour2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Debug;
 		};
@@ -403,6 +408,7 @@
 				INFOPLIST_FILE = Goldenhour2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Release;
 		};
@@ -459,6 +465,7 @@
 				A4A452711A085FF300842473 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A4A452721A085FF300842473 /* Build configuration list for PBXNativeTarget "Goldenhour2Tests" */ = {
 			isa = XCConfigurationList;
@@ -467,6 +474,7 @@
 				A4A452741A085FF300842473 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
